@@ -1,0 +1,42 @@
+.video-background-holder {
+    position: absolute;
+    /*background-color: black;*/
+    background-size: cover;
+    height: 200px;
+    /*min-height: 25rem;*/
+    width: 200px;
+    overflow: hidden;
+    left: 20%;
+    top: 100px;
+}
+
+.video-background-holder video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*min-width: 40%;*/
+    /*min-height: 40%;*/
+    width: 400px;
+    height: 400px;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+    position: relative;
+    z-index: 2;
+}
+
+.video-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*background-color: black;*/
+    opacity: 0.5;
+    z-index: 1;
+}

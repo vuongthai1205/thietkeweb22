@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .hide-ele {
+        display: none;
+    }
+}
+
+.fade {
+    transition: opacity 0s linear;
+}
